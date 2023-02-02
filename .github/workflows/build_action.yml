@@ -1,5 +1,10 @@
 name: Learn Github actions
+
 on: [push]
+
+env:
+  JAVA_HOME: /Users/anvar/Library/Java/JavaVirtualMachines/openjdk-17.0.2/Contents/Home
+
 jobs:
   app:
     name: Generate APK
