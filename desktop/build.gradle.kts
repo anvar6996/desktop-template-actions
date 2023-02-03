@@ -24,6 +24,12 @@ kotlin {
         }
         val jvmTest by getting
     }
+
+//    java {
+//        sourceCompatibility = JavaVersion.VERSION_11
+//        targetCompatibility = JavaVersion.VERSION_11
+//    }
+
 }
 
 compose.desktop {
