@@ -15,7 +15,7 @@ jobs:
       - name: Setup JDK
         uses: actions/setup-java@v1
         with:
-          java-version: 11
+          java-version: 19
       - name: Build APK
         run: gradle packageDistributionForCurrentOS
       - name: Upload APK
