@@ -22,4 +22,5 @@ jobs:
         uses: actions/upload-artifact@v1
         with:
           name: apk
-          path: /Users/anvar/Workspace/Experiments/CMP/desktop/build/libs/
+          path: /Users/anvar/Workspace/Experiments/CMP/desktop/build/compose/binaries/main/dmg/cmp-1.0.0.dmg
+        
